@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/artboard/*": ["src/*"],
+      "@reactive-resume/schema": ["libs/schema/index.ts"],
+      "@reactive-resume/utils": ["libs/utils/index.ts"],
+      "@reactive-resume/hooks": ["libs/hooks/index.ts"]
+    }
+  },
+  "include": ["src", "libs", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+

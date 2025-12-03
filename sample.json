@@ -1,0 +1,317 @@
+{
+    "basics": {
+      "url": {
+        "href": "",
+        "label": ""
+      },
+      "name": "王亚东",
+      "email": "2470616413@qq.com",
+      "phone": "13613844272",
+      "picture": {
+        "url": "https://avatars.githubusercontent.com/u/7346452?v=4",
+        "size": 64,
+        "effects": {
+          "border": false,
+          "hidden": false,
+          "grayscale": false
+        },
+        "aspectRatio": 1,
+        "borderRadius": 0
+      },
+      "headline": "算法工程师",
+      "location": "北京, 中国",
+      "customFields": []
+    },
+    "metadata": {
+      "css": {
+        "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+        "visible": false
+      },
+      "page": {
+        "format": "a4",
+        "margin": 18,
+        "options": {
+          "breakLine": true,
+          "pageNumbers": false
+        }
+      },
+      "notes": "",
+      "theme": {
+        "text": "#000000",
+        "primary": "#dc2626",
+        "background": "#ffffff"
+      },
+      "layout": [
+        [
+          [
+            "profiles",
+            "summary",
+            "experience",
+            "education",
+            "projects",
+            "volunteer",
+            "references"
+          ],
+          [
+            "skills",
+            "interests",
+            "certifications",
+            "awards",
+            "publications",
+            "languages"
+          ]
+        ]
+      ],
+      "template": "bronzor",
+      "typography": {
+        "font": {
+          "size": 14,
+          "family": "IBM Plex Serif",
+          "subset": "latin",
+          "variants": [
+            "regular",
+            "italic",
+            "600"
+          ]
+        },
+        "hideIcons": false,
+        "lineHeight": 1.5,
+        "underlineLinks": true
+      }
+    },
+    "sections": {
+      "awards": {
+        "id": "awards",
+        "name": "荣誉奖项",
+        "items": [
+          {
+            "id": "award_1",
+            "title": "第五届CCPC中国大学生程序设计竞赛河南赛区银奖",
+            "date": "2020",
+            "awarder": "队长",
+            "summary": "",
+            "visible": true
+          },
+          {
+            "id": "award_2",
+            "title": "河南省ICPC大学生程序设计大赛银奖",
+            "date": "2020",
+            "awarder": "队长",
+            "summary": "",
+            "visible": true
+          }
+        ],
+        "columns": 1,
+        "visible": true,
+        "separateLinks": true
+      },
+      "custom": {},
+      "skills": {
+        "id": "skills",
+        "name": "专业技能",
+        "items": [
+          {
+            "id": "skill_1",
+            "name": "模型算法",
+            "description": "精通 PyTorch，熟练进行大模型的 SFT/PEFT 微调 与算法实现。",
+            "level": "精通",
+            "keywords": [
+              "PyTorch",
+              "SFT",
+              "PEFT"
+            ],
+            "visible": true
+          },
+          {
+            "id": "skill_2",
+            "name": "LLM应用开发",
+            "description": "拥有丰富的 RAG, Agent 以及 MCP 应用开发经验，擅长构建面向复杂业务场景的智能问答和自动化任务解决方案。",
+            "level": "熟练",
+            "keywords": [
+              "RAG",
+              "Agent",
+              "MCP"
+            ],
+            "visible": true
+          },
+          {
+            "id": "skill_3",
+            "name": "工程与部署",
+            "description": "具备完整的AI项目落地能力，熟练运用 Git、Docker 及 Kubernetes (K8s) 实现从开发、测试到生产环境的自动化部署与运维。",
+            "level": "熟练",
+            "keywords": [
+              "Git",
+              "Docker",
+              "K8s"
+            ],
+            "visible": true
+          },
+          {
+            "id": "skill_4",
+            "name": "编程语言",
+            "description": "Python, C++, Java, Next.js",
+            "level": "熟练",
+            "keywords": [
+              "Python",
+              "C++",
+              "Java",
+              "Next.js"
+            ],
+            "visible": true
+          }
+        ],
+        "columns": 1,
+        "visible": true,
+        "separateLinks": true
+      },
+      "summary": {
+        "id": "summary",
+        "name": "个人简介",
+        "columns": 1,
+        "content": "<p>拥有丰富的RAG、Agent及MCP应用开发经验，擅长构建面向复杂业务场景的智能问答和自动化任务解决方案。具备从模型微调（SFT/PEFT）到工程化落地（Docker/K8s）的完整全栈AI开发能力。</p>",
+        "visible": true,
+        "separateLinks": true
+      },
+      "profiles": {
+        "id": "profiles",
+        "name": "Profiles",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "projects": {
+        "id": "projects",
+        "name": "Projects",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "education": {
+        "id": "education",
+        "name": "教育经历",
+        "items": [
+          {
+            "id": "edu_1",
+            "institution": "河南大学",
+            "area": "计算机技术",
+            "studyType": "硕士",
+            "date": "2021-09 - 2024-06",
+            "url": {},
+            "score": "双一流",
+            "visible": true
+          },
+          {
+            "id": "edu_2",
+            "institution": "南阳理工学院",
+            "area": "软件设计",
+            "studyType": "本科",
+            "date": "2017-09 - 2021-09",
+            "url": {},
+            "score": "软件学院",
+            "visible": true
+          }
+        ],
+        "columns": 1,
+        "visible": true,
+        "separateLinks": true
+      },
+      "interests": {
+        "id": "interests",
+        "name": "Interests",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "languages": {
+        "id": "languages",
+        "name": "Languages",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "volunteer": {
+        "id": "volunteer",
+        "name": "Volunteering",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "experience": {
+        "id": "experience",
+        "name": "工作经历",
+        "items": [
+          {
+            "id": "exp_1",
+            "company": "百融云创科技股份有限公司",
+            "position": "应用引擎研发组",
+            "date": "2025-08 - 至今",
+            "location": "北京",
+            "url": {
+              "href": "",
+              "label": ""
+            },
+            "summary": "<p><strong>部门：AaaS BG-AI基础设施与开发平台部</strong></p><ul><li><strong>负责从0构建知识库系统：</strong>设计知识库架构，实现非标准化文档转标准化文档、切片策略、OCR模型集成，以及检索、问答和端到端评测。</li><li><strong>RAG策略优化：</strong>熟悉多种优化策略，包括查询重写/扩展、多跳检索、知识图谱增强、元数据过滤、标签增强及实时RAG等。</li><li><strong>Case优化：</strong>具备根据具体场景的badcase设计针对性检索优化策略的能力。</li></ul>",
+            "visible": true
+          },
+          {
+            "id": "exp_2",
+            "company": "北京感易智能科技有限公司",
+            "position": "大模型算法工程师",
+            "date": "2024-06 - 2025-08",
+            "location": "北京",
+            "url": {
+              "href": "",
+              "label": ""
+            },
+            "summary": "<p><strong>1. 银河证券客服系统 - 构建多场景智能问答体系</strong></p><ul><li><strong>坐席辅助问答系统：</strong>面向非SOP场景（养老金、证券交易等），优化检索策略与Prompt工程，核心问题采纳率从75%提升至82%。</li><li><strong>客户问答系统：</strong>面向C端，基于FAQ知识库，通过优化RAG策略（混合检索、模型判定逻辑），核心问题准确率从60%提升到90%，集成“猜你想问”等功能。</li><li><strong>智能工单助手：</strong>利用大模型自动分类工单并生成摘要，准确率达80%；针对投诉场景实现关键信息结构化抽取，准确率高达90%。</li><li><strong>知识库智能运营：</strong>设计自动化FAQ挖掘流程，业务采纳率达50%。</li><li><strong>技术选型与优化：</strong>核心采用Qwen2-72B + BGE-M3，调整Rerank策略及引入近义词表，特定场景召回准确率提升超14% (67.7% -> 81.7%)，首字响应<10s。</li></ul><p><strong>2. 民生银行客服系统(事中)</strong></p><ul><li>为接待单系统提供坐席辅助，通过同义词挖掘、Query及知识双向扩展，线上准确率由30%提升到45%。</li></ul><p><strong>3. 中信ECM智能定增投资者推荐系统</strong></p><ul><li>设计并交付AI驱动的推荐系统，采用混合推荐(同质+异质)算法，结合RAG生成可解释性推荐理由，实现“精准推荐”到“可信推荐”闭环。</li></ul><p><strong>4. 中信证券MCP服务搭建</strong></p><ul><li>提供MCP基础服务搭建，包括 K8s MCP服务，RAG检索服务，Code Reader服务等。</li></ul>",
+            "visible": true
+          },
+          {
+            "id": "exp_3",
+            "company": "小红书",
+            "position": "模型训练实习 (模型训练小组)",
+            "date": "2023-11 - 2024-02",
+            "location": "北京",
+            "url": {
+              "href": "",
+              "label": ""
+            },
+            "summary": "<ul><li>对 llama2 7B模型在多个领域的数据上进行SFT微调。</li><li>使用GPT-4对市面上其他大模型进行自动化评测。</li></ul>",
+            "visible": true
+          }
+        ],
+        "columns": 1,
+        "visible": true,
+        "separateLinks": true
+      },
+      "references": {
+        "id": "references",
+        "name": "References",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "publications": {
+        "id": "publications",
+        "name": "Publications",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      },
+      "certifications": {
+        "id": "certifications",
+        "name": "Certifications",
+        "items": [],
+        "columns": 1,
+        "visible": false,
+        "separateLinks": true
+      }
+    }
+  }
